@@ -1,0 +1,19 @@
+{
+    "name": "nine/laravel-key",
+    "authors": [
+        {
+            "name": "nine",
+            "email": "ninebiscuit@outlook.com"
+        }
+    ],
+    "require": {
+        "illuminate/routing": "^5.5",
+        "illuminate/events": "^5.5"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

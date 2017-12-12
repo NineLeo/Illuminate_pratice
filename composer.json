@@ -7,8 +7,9 @@
         }
     ],
     "require": {
-        "illuminate/routing": "^5.5",
-        "illuminate/events": "^5.5"
+        "illuminate/routing": "*",
+        "illuminate/events": "*",
+        "illuminate/datebase": "*"
     },
     "repositories": {
         "packagist": {

@@ -5,6 +5,7 @@ use App\Models\Student;
 class WelcomeController {
     public function index () {
         $student = Student::first();
-        print_r($student);
+        $data = $student->getAttributes();
+        print_r($data);
     }
 }

@@ -1,13 +1,6 @@
 <?php
 namespace App\Models;
-use Illuminate\Datebase\Eloquent\Model;
-
-
-if(class_exists('Illuminate\Datebase\Eloquent\Model')){
-    echo 'exists';
-}else{
-    echo 'no';
-}
+use Illuminate\Database\Eloquent\Model;
 
 class Student extends Model {
     public $timestamps = false;

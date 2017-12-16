@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
-use App\Model\Student;
+use App\Models\Student;
+
 class WelcomeController {
     public function index () {
         $student = Student::first();

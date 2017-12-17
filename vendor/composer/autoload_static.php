@@ -34,6 +34,7 @@ class ComposerStaticInitfda7d9d75dc19cc75562f0bc6f1dc605
         ),
         'I' => 
         array (
+            'Illuminate\\View\\' => 16,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Session\\' => 19,
             'Illuminate\\Routing\\' => 19,
@@ -107,6 +108,10 @@ class ComposerStaticInitfda7d9d75dc19cc75562f0bc6f1dc605
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Illuminate\\View\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/view',
         ),
         'Illuminate\\Support\\' => 
         array (
